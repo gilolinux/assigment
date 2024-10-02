@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Transparent Form</title>
     <style>
         body {
             background-image: url(OIP.jpeg);
@@ -15,13 +15,22 @@
         a{
             border: 1px solid red;
             background-color: aqua;
+            padding: 7px;
+            margin: 10px 0px;
         }
-        a.hover{
-            
+        a:hover{
+            background: pink;
+            color: white;
+        }
+        a:active{
+            background: violet;
+            color: black;
         }
         form{
-            border: 1px solid black; 
+            border: none; 
             padding: 30px;
+            margin: auto;
+            width: 30%;
             box-shadow:  inset 0px 0px 10px wheat;
             color: yellow;
             border-radius: 10px;
@@ -39,6 +48,7 @@
             padding: 15px;
             margin: 10px 0;
             border-radius: 30px;
+            box-sizing: border-box;
             box-shadow: inset 0 0 15px white;
             background-color: rgba(255, 255, 255, 0.2);
             text-align: left;
@@ -51,18 +61,19 @@
             padding: 15px;
             width: 300px;
             border-radius: 15px;
-            box-shadow: inset 0px 0px 20px rgba(36, 33, 33, 0.5);
+            box-shadow: inset 0px 0px 20px rgba(246, 246, 246, 0.5);
             background-color: rgba(241, 228, 228, 0.2);
+            color: white;
         }
     </style>
 </head>
 <body>
-    <a href="index.html">Home Page</a><br><br>
-    <a href="form.html">Clkck To Fill Form</a><br><br>
-    <a href="hireme.html">Click To Hire</a><br><br>
-    <a href="transparent form.html">I Just Styled This Form</a><br><br>
-    <a href="letter.html">High School Drama</a><br><br>
-    <a href="try form.html">Needs Your Attention</a><br><br>
+    <a href="index.html">Home</a><br><br>
+    <a href="form.html">Form</a><br><br>
+    <a href="hireme.html">Hire</a><br><br>
+    <a href="transparent form.html">Form2</a><br><br>
+    <a href="letter.html">Letter</a><br><br>
+    <a href="try form.html">Image</a><br><br>
     
     <form action="">
         <label for="email">Email</label>
