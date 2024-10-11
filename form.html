@@ -6,14 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
     <style>
+        .forul{
+        background-color: aqua;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        }
+        .forli{
+            text-decoration: none;
+            list-style-type: none;
+            padding: 5px;
+            margin: 0px 5px;
+            border-radius: 10px;
+            height: fit-content;
+        }
+        .fora{
+            color: red;
+            text-decoration: none;
+        }
+        .forbut{
+            background-color: gold;
+            color: white;
+            padding: 10px 20px;
+            height: fit-content;
+            border-radius: 10px;
+        }
         a{
             padding: 5px;
             margin: auto;
-            background-color: rgb(225, 204, 16);
+            border-bottom: 2px solid black;
             color: black;
         }
         a:hover{
-            background: pink;
+            background: rgba(6, 177, 177, 0.515);
             color: white;
         }
         a:active{
@@ -34,45 +60,57 @@
 </head>
 
 <body>
-    <a href="index.html">Home</a><br><br>
-    <a href="form.html">Form</a><br><br>
-    <a href="hireme.html">Hire</a><br><br>
-    <a href="transparent form.html">Form2</a><br><br>
-    <a href="letter.html">Letter</a><br><br>
-    <a href="try form.html">Image</a><br><br>
-    <a href="ludo.html">Ludo</a>
-
-    <form action="">
-        <label for="username">Username</label>
-        <input type="text" id="uname" name="Username"><br>
-        <label for="password">Password</label>
-        <input type="text" id="pword" name="Password"><br>
-        <label for="COE">City Of Employment</label>
-        <input type="text" id="coe" name="City Of Employment"><br>
-        <label for="cars">Web Server:</label>
-        <select name="cpanel" id="cpanel">
-            <option value="cpanel">Cpanel</option>
-            <option value="wordpress">Wordpress</option>
-        </select><br>
-        <label for="specify">Please specify your role:</label>
-        <input type="radio">
-        <label for="Admin">Admin</label>
-        <input type="radio" name="engineer" id="egine">
-        <label for="engineer">Engineer</label>
-        <input type="radio" name="Manager" id="manager">
-        <label for="manager">Manager</label>
-        <input type="radio" name="guest" id="guest">
-        <label for="guest">Guest</label><br>
-        <label for="Single sign-in">Single sign-in on the following:</label>
-        <label for="mail">Mail</label>
-        <input type="checkbox" name="mail" id="">
-        <label for="payroll">Payroll</label>
-        <input type="checkbox" name="payroll" id="">
-        <label for="self service">Self Service</label>
-        <input type="checkbox" name="self service" id=""><br>
-        <button>Login</button>
-        <button>Reset</button>
-    </form>
+    <div>
+        <div class="forul">
+            <ul class="forul">
+                <li class="forli"><a href="index.html" class="fora">Home</a></li>
+                <li class="forli"><a href="form.html" class="fora">Form</a></li>
+                <li class="forli"><a href="hireme.html" class="fora">Hire</a></li>
+                <li class="forli"><a href="letter.html" class="fora">Letter</a></li>
+                <li class="forli"><a href="ludo.html" class="fora">Ludo</a></li>
+                <li class="forli"><a href="table.html" class="fora">Table</a></li>
+                <li class="forli"><a href="transparent form.html" class="fora">Form2</a></li>
+                <li class="forli"><a href="try form.html" class="fora">Image</a></li>
+                <li class="forli"><a href="bar.html" class="fora">Bar</a></li>
+                <li class="forli"><a href="smile.html" class="fora">Smile</a></li>
+                <button class="forbut">Submit</button>
+            </ul>
+        </div>
+        <div>
+            <form action="">
+                <label for="username">Username</label>
+                <input type="text" id="uname" name="Username"><br>
+                <label for="password">Password</label>
+                <input type="text" id="pword" name="Password"><br>
+                <label for="COE">City Of Employment</label>
+                <input type="text" id="coe" name="City Of Employment"><br>
+                <label for="cars">Web Server:</label>
+                <select name="cpanel" id="cpanel">
+                <option value="cpanel">Cpanel</option>
+                <option value="wordpress">Wordpress</option>
+                </select><br>
+                <label for="specify">Please specify your role:</label>
+                <input type="radio">
+                <label for="Admin">Admin</label>
+                <input type="radio" name="engineer" id="egine">
+                <label for="engineer">Engineer</label>
+                <input type="radio" name="Manager" id="manager">
+                <label for="manager">Manager</label>
+                <input type="radio" name="guest" id="guest">
+                <label for="guest">Guest</label><br>
+                <label for="Single sign-in">Single sign-in on the following:</label>
+                <label for="mail">Mail</label>
+                <input type="checkbox" name="mail" id="">
+                <label for="payroll">Payroll</label>
+                <input type="checkbox" name="payroll" id="">
+                <label for="self service">Self Service</label>
+                <input type="checkbox" name="self service" id=""><br>
+                <button>Login</button>
+                <button>Reset</button>
+            </form>
+        </div>
+    </div>
+    
 </body>
 
 </html>

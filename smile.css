@@ -1,3 +1,39 @@
+.forul{
+background-color: aqua;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.forli{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 5px;
+    margin: 0px 5px;
+    border-radius: 10px;
+    height: fit-content;
+}
+.fora{
+    color: red;
+    text-decoration: none;
+}
+.forbut{
+    background-color: gold;
+    color: white;
+    padding: 10px 20px;
+    height: fit-content;
+    border-radius: 10px;
+}
+a{
+    padding: 5px;
+    margin: auto;
+    border-bottom: 2px solid black;
+    color: black;
+}
+a:hover{
+    background: rgba(6, 177, 177, 0.515);
+    color: white;
+}
 .forall{
     background-color: yellowgreen;
     height: 500px;

@@ -5,13 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
     <style>
-        a{
-            background-color: purple;
+       .forul{
+        background-color: aqua;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        }
+        .forli{
+            text-decoration: none;
+            list-style-type: none;
             padding: 5px;
+            margin: 0px 5px;
+            border-radius: 10px;
+            height: fit-content;
+        }
+        .fora{
             color: red;
+            text-decoration: none;
+        }
+        .forbut{
+            background-color: gold;
+            color: white;
+            padding: 10px 20px;
+            height: fit-content;
+            border-radius: 10px;
+        }
+        a{
+            padding: 5px;
+            margin: auto;
+            border-bottom: 2px solid black;
+            color: black;
         }
         a:hover{
-            background: pink;
+            background: rgba(6, 177, 177, 0.515);
             color: white;
         }
         a:active{
@@ -28,7 +55,6 @@
         }
         li{
             color: red;
-            background-color: pink;
             padding: 5px;
         }
         h1{
@@ -52,19 +78,32 @@
     </style>
 </head>
 <body>
-    <ul>
-        <a href="index.html">Home</a><br><br>
-        <a href="form.html">Form</a><br><br>
-        <a href="hireme>.html">Hire</a><br><br>
-        <a href="transparent form.html">Form2</a><br><br>
-        <a href="letter.html">Letter</a><br><br>
-        <a href="try form.html">Image</a><br><br>
-        <a href="ludo.html">Ludo</a>
-    </ul>
-    <h1>Siwes 2024</h1>
+    <div>
+        <div class="fordiv">
+            <h1 class="fordiv">Siwes 2024</h1>
+        </div>
+        <div class="forul">
+            <ul class="forul">
+                <li class="forli"><a href="index.html" class="fora">Home</a></li>
+                <li class="forli"><a href="form.html" class="fora">Form</a></li>
+                <li class="forli"><a href="hireme.html" class="fora">Hire</a></li>
+                <li class="forli"><a href="letter.html" class="fora">Letter</a></li>
+                <li class="forli"><a href="ludo.html" class="fora">Ludo</a></li>
+                <li class="forli"><a href="table.html" class="fora">Table</a></li>
+                <li class="forli"><a href="transparent form.html" class="fora">Form2</a></li>
+                <li class="forli"><a href="try form.html" class="fora">Image</a></li>
+                <li class="forli"><a href="bar.html" class="fora">Bar</a></li>
+                <li class="forli"><a href="smile.html" class="fora">Smile</a></li>
+                <button class="forbut">Submit</button>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div>
     <p>COUPLE THINGS I LEARNT</p>
     <h2>This web page is the educate you, as much as it is to educate me.</h2>
     <h3>When you viewed this, your expextation might be met, and if not i am learning.</h3>
     <p>I hope you understand that.</p>
+    </div>
 </body>
 </html>
