@@ -1,0 +1,42 @@
+.forall{
+    background-color: royalblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-items: center;
+}
+.forimg{
+    margin: 10px;
+    width: 50px;
+    height: fit-content;
+}
+.forh1{
+    color: white;
+    padding: 0px;
+    margin: 10px 200px 0px 0px;
+}
+.forul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.forli{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 5px;
+    margin: 0px 5px;
+    border-radius: 10px;
+    height: fit-content;
+}
+.fora{
+    color: white;
+    text-decoration: none;
+}
+.forbut{
+    background-color: aqua;
+    color: white;
+    padding: 10px;
+    height: fit-content;
+    border-radius: 15px;
+}
