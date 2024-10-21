@@ -41,3 +41,8 @@
     height: fit-content;
     border-radius: 15px;
 }
+.whats img{
+    height: 50px;
+    margin: 15px 0px 40px 0px;
+    float: right;
+}

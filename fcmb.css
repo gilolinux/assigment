@@ -1,0 +1,161 @@
+.logo img{
+    padding: 10px;
+    height: auto;
+    width: 50px;
+}
+.link ul{
+    padding: 10px;
+    margin: 0px 0px 10px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.link ul>li>a{
+    text-decoration: none;
+    margin: 0px 10px;
+}
+.head{
+    background-color: purple;
+    padding: 1px;
+}
+.head p{
+    background-color: gold;
+    padding: 10px;
+    width: 30%;
+    margin: 0px 0px 0px 50px;
+}
+.sidebar{
+    border-left: 2px solid orange;
+    margin: 10px 0px 0px 40px;
+}
+.sidebar p{
+    margin: 10px 0px 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#try{
+    font-size: 25px;
+}
+.head2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px 0px 0px ;
+}
+.head2 p{
+    margin: 1px;
+}
+#pred{
+    color: red;
+}
+.allside{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.myform{
+    background: purple;
+    padding: 5px;
+    width: 30%;
+}
+.subdiv{
+    background: white;
+    height: 210px;
+}
+.subdiv label{
+    margin: 20px 10px 60px 10px;
+}
+.subdiv input{
+    margin:10px;
+}
+.subdiv button{
+    background-color: gold;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#bizimg{
+    background-color: green;
+    width: 30%;
+    height: 300px;
+    box-sizing: border-box;
+    overflow: hidden    ;
+}
+#bizimg img{
+    box-sizing: border-box;
+    height: inherit;
+}
+.error{
+    background-color: wheat;
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.error p{
+    margin: 10px;
+}
+.error h2{
+    margin: 10px;
+}
+.error button{
+    padding: 5px;
+    margin: 10px;
+    float:  right;
+    background-color: gold;
+    border: 2px solid black;
+}
+.lastdi{
+    display: flex;
+    justify-content: flex-end;
+}
+.h3div{
+    background-color: orange;
+    height: 220px;
+    width: 200px;
+}
+.h3div h3{
+    margin: 90px 0px 90px 5px;
+}
+.homeicon{
+    width: 200px;
+    height: 220px;
+}
+.homeicon img{
+    height: 30px;
+    margin: 20px 0px 0px 0px;
+}
+.homeicon ul{
+    margin: 50px 0px 10px 0px;
+}
+.homeicon ul li{
+    color: blue;
+}
+.mouseicon{
+    height: 220px;
+    width: 200px;
+}
+.mouseicon img{
+    height: 30px;
+    margin: 20px 0px 0px 0px;
+}
+.telephoneicon{
+    height: 220px;
+    width: 200px;
+}
+.telephoneicon img{
+    height: 30px;
+    margin: 20px 0px 0px 0px;
+}
+.foot{
+    background-color: grey;
+    padding: 10px;
+    margin: 50px 0px 50px 0px;
+}
+.foot footer{
+    text-align: center;
+    font-size: small;
+}
+.whats img{
+    height: 50px;
+    margin: -35px 0px 10px 0px;
+    float: right;
+}

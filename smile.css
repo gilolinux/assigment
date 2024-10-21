@@ -71,7 +71,12 @@ a:hover{
     width: 300px;
     text-align: center;
 }
-.forlike{
+.forlike{f
     width: 300px;
     text-align: center;
+}
+.whats img{
+    height: 50px;
+    margin: 15px 0px 40px 0px;
+    float: right;
 }
