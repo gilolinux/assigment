@@ -154,6 +154,13 @@
     text-align: center;
     font-size: small;
 }
+.whats{
+    padding: 10px;
+    width: fit-content;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
 .whats img{
     height: 50px;
     margin: -35px 0px 10px 0px;
