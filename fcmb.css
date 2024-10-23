@@ -2,6 +2,7 @@
     padding: 10px;
     height: auto;
     width: 50px;
+    margin: 10px 0px 0px 25px;
 }
 .link ul{
     padding: 10px;
@@ -39,7 +40,7 @@
 }
 .head2{
     font-family: Arial, Helvetica, sans-serif;
-    margin: 10px 0px 0px 0px ;
+    margin: 10px 0px 0px 40px;
 }
 .head2 p{
     margin: 1px;
@@ -48,7 +49,7 @@
     color: red;
 }
 .allside{
-    margin: 10px;
+    margin: 10px 0px 10px 25px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -120,11 +121,11 @@
     height: 220px;
 }
 .homeicon img{
+    margin-left: 20px;
     height: 30px;
-    margin: 20px 0px 0px 0px;
 }
 .homeicon ul{
-    margin: 50px 0px 10px 0px;
+    /* margin: 50px 0px 10px 0px; */
 }
 .homeicon ul li{
     color: blue;
@@ -135,7 +136,7 @@
 }
 .mouseicon img{
     height: 30px;
-    margin: 20px 0px 0px 0px;
+    margin-left: 20px;
 }
 .telephoneicon{
     height: 220px;
@@ -143,7 +144,7 @@
 }
 .telephoneicon img{
     height: 30px;
-    margin: 20px 0px 0px 0px;
+    margin-left: 20px;
 }
 .foot{
     background-color: grey;
@@ -151,8 +152,10 @@
     margin: 50px 0px 50px 0px;
 }
 .foot footer{
+    padding: 10px;
     text-align: center;
     font-size: small;
+    margin: 10px 0px 0px 25px;
 }
 .whats{
     padding: 10px;
