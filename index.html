@@ -75,12 +75,27 @@
         body{
             background-color: pink;
         }
+        @keyframes whassam {
+            0%{
+                padding: 20px;
+            }
+            100%{
+                padding: 30px;
+            }
+        }
         .whats{
             padding: 10px;
             width: fit-content;
             position: fixed;
             bottom: 0px;
             right: 0px;
+
+            animation-name: whassam;
+            animation-duration: 5s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate; 
         }
         .whats img{
             height: 50px;

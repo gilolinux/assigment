@@ -124,9 +124,6 @@
     margin-left: 20px;
     height: 30px;
 }
-.homeicon ul{
-    /* margin: 50px 0px 10px 0px; */
-}
 .homeicon ul li{
     color: blue;
 }
@@ -157,15 +154,31 @@
     font-size: small;
     margin: 10px 0px 0px 25px;
 }
+@keyframes whassam {
+    0%{
+        
+        padding: 20px;
+    }
+    100%{
+        
+        padding: 30px;
+    }
+}
 .whats{
     padding: 10px;
     width: fit-content;
     position: fixed;
     bottom: 0px;
     right: 0px;
+
+    animation-name: whassam;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
 }
 .whats img{
     height: 50px;
     margin: -35px 0px 10px 0px;
-    float: right;
 }
